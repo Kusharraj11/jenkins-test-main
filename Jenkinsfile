@@ -10,7 +10,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git url: 'https://github.com/Kusharraj11/multi-container-node.git', branch: 'master'
+        git url: 'https://github.com/Kusharraj11/multi-container-node.git', branch: 'main'
       }
     }
 

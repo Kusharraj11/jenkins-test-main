@@ -10,7 +10,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git url: 'https://github.com/Kusharraj11/multi-container-node.git', branch: 'main'
+        git url: 'https://github.com/Kusharraj11/jenkins-test-main.git', branch: 'main'
       }
     }
 
